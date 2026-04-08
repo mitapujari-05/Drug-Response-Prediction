@@ -1,0 +1,7 @@
+Model,RMSE,R2,Pearson_r,Accuracy,AUC_ROC,F1
+RF Regression,1.007,0.2814,0.5317,,,
+RF Classification,,,,0.6201,0.6825,0.6344
+XGB Regression,1.0321,0.2452,0.5059000253677368,,,
+XGB Classification,,,,0.6536,0.6918,0.663
+MLP Regression,1.0752,0.1808,0.4830999970436096,,,
+MLP Classification,,,,0.5978,0.6514,0.5714
