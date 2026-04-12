@@ -1,0 +1,13 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load all files
+ic50    = pd.read_csv('data/GDSC_DATASET.csv')
+details = pd.read_excel('data/Cell_Lines_Details.xlsx')
+expr    = pd.read_csv('data/Cell_line_RMA_proc_basalExp.txt', sep='\t', index_col=0)
+
+print("IC50:", ic50.shape)
+print("Details:", details.shape)
+print("Expression:", expr.shape)
