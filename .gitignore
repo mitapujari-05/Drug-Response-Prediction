@@ -1,5 +1,10 @@
-data/hg
-*.zip
+venv/
+data/
+*.npy
+*.txt
+*.csv
+
 __pycache__/
-.ipynb_checkpoints/
-*.ipynb
+*.pyc
+!app/cell_line_expression.csv
+!app/cell_line_names.csv
