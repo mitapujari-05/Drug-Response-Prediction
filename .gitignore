@@ -1,10 +1,12 @@
 venv/
 data/
+
 *.npy
 *.txt
 *.csv
 
-__pycache__/
-*.pyc
 !app/cell_line_expression.csv
 !app/cell_line_names.csv
+
+__pycache__/
+*.pyc
