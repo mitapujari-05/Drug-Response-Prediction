@@ -9,7 +9,7 @@ A machine learning system that predicts how cancer cell lines respond to anti-ca
 ---
 
 ## 🔬 Live Demo
-![App Screenshot](app_screenshot.png)
+![App Screenshot](app_ss.png)
 
 **Try the app:** [drug-response-prediction-udu25j8hustdlqfxfqfcep.streamlit.app](https://drug-response-prediction-udu25j8hustdlqfxfqfcep.streamlit.app/)
 
