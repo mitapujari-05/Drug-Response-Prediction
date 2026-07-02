@@ -1,12 +1,26 @@
-venv/
+# Large data files
 data/
+venv/
 
-*.npy
+# Large numpy files
+models/X_train.npy
+models/X_test.npy
+models/y_train_reg.npy
+models/y_test_reg.npy
+models/y_train_clf.npy
+models/y_test_clf.npy
+models/top500_idx.npy
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Anaconda
+anaconda_projects/
+
+# Misc
 *.txt
-*.csv
-
-!app/cell_line_expression.csv
-!app/cell_line_names.csv
-
+*.zip
+master cell.txt
 __pycache__/
 *.pyc
